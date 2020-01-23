@@ -8,6 +8,7 @@ package ghostscript
 #include <ghostscript/gdevdsp.h>
 #include <ghostscript/iapi.h>
 #include <ghostscript/ierrors.h>
+#define e_Fatal gs_error_Fatal
 #cgo LDFLAGS: -lgs
 */
 import "C"
